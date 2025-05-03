@@ -1,6 +1,6 @@
 import streamlit as st
 import openai
-import speech_recognition as sr
+import SpeechRecognition as sr
 import pyttsx3
 
 # === CONFIG ===
