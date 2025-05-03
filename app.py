@@ -4,7 +4,8 @@ import speech_recognition as sr
 import pyttsx3
 
 # === CONFIG ===
-openai.api_key = "your-openai-api-key"  # Replace with your actual OpenAI key
+openai.api_key = st.secrets["openai_key"]  # Replace with your actual OpenAI key
+st.write("API key loaded securely.")
 
 # === Initialize Text-to-Speech Engine ===
 engine = pyttsx3.init()
